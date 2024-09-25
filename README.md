@@ -24,8 +24,14 @@ To use the script, simply run it and enter a password to be checked. The program
 
 ### Example
 
+```python
 Enter a password to check its strength: Pa$$w0rd123!
 Password strength: Very Strong
+```
+
+# Example usage
+password = input("Enter a password to check its strength: ")
+print(check_password_strength(password))
 ```
 
 ## Requirements
